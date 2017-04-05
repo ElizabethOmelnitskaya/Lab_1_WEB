@@ -1,0 +1,44 @@
+body {
+     margin: 0; /* Убираем отступы */
+}
+
+header {
+     background: #F5DEB3;
+     width: 100%;
+     height: 90px;
+     margin: 0px; 
+}
+#left {
+     background: #DCDCDC;
+     float: left;/*выравнивание элемента по левому краю, 
+                   все остальные обтекают его по правой стороне */
+     width: 18%;
+     height: 100%;
+     position: fixed; /*фиксирование левой колонки*/
+}
+.right {
+     width: 82%;
+     height: auto;
+     margin-left: 18%;/*левый отступ*/
+}
+footer { 
+     background: #00BFFF; 
+     width: 100%; 
+     height: 13%; 
+     position: fixed; 
+     top: 87%; /*положение от верхнего края*/
+     left:0;
+}
+h3{
+     text-align: center;
+     padding: 18px;
+}
+p{
+     text-indent: 20px;
+     padding: 9px;
+     font-size: 18px;
+}
+a{
+     text-indent: 25px;
+     padding: 10px;
+}

@@ -1,0 +1,30 @@
+html {
+	background-color: #f2e8c9; /*фон*/
+}
+h1 {
+	padding-top: 20px;/*поле от верхнего края*/
+	text-align: center;
+	border-top: 3px double #191970;/*позволяет одновременно установить 
+	                                 толщину, стиль и цвет границы сверху
+	                                 элемента*/
+}
+p { 
+	padding-left: 60px;
+	padding-right: 70px;
+	text-align: justify; /*выравнивание текста по ширине*/
+	border-left: 3px dashed #191970;
+	border-right: 3px dashed #191970;
+	font-family: 'Times New Roman', Times, serif;	
+	font-size: 20px;
+	 }
+#introduction {
+	font-family: 'Times New Roman', Times, serif; 
+    font-style: italic; 
+    padding-right: 100px;
+    padding-left: 300px;
+    text-align: right;
+    color: #191970;    
+}
+#img1{
+	float: right;
+}

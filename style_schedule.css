@@ -1,0 +1,38 @@
+body {
+  margin: 20px 15px 15px 15px;/*отступ сразу для всех сторон элемента 
+                                или определить ее только для указанных 
+                                сторон */
+  background: #F4F1F8;
+}
+table {
+  border-collapse: collapse; /* Отображать только одинарные линии */
+  line-height: 1.1;/*межстрочный интервал*/
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);/*по центру, начальный, конечный цвет*/
+  color: #0C213B;
+}
+caption {
+  font-family: "Courier New", "Courier", monospace;
+  font-weight: bold;/*насыщенность шрифта, полужирное начертание*/
+  font-size: 2em;
+  padding: 10px; 
+  color: #F3CD26;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.3);/*параметры тени*/
+ }
+ 
+th {
+  padding: 10px; 
+  border: 1px solid #A9E2CC;/*параметры границы*/
+  text-align: center;
+}
+td {
+  font-size: 0.8em;
+  padding: 7px 7px;
+  border: 1px solid #A9E2CC;
+  text-align: center;
+}
+.first {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
